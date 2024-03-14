@@ -1,0 +1,147 @@
+.main__filters {
+    justify-self: center;
+    align-self: flex-start;
+
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.253);
+
+    width: 90%;
+    padding: 15px 30px 30px;
+    border-radius: 8px;
+
+    position: sticky;
+    top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.main__filters__heading {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+}
+
+.main__filters__subheading {
+    margin: 5px 0;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main__filters .emoji {
+    width: 25px;
+    height: 25px;
+}
+
+.main__filters__fieldset {
+    width: 100%;
+}
+
+.main__filters__fieldset:last-child {
+    text-align: center;
+}
+
+.main__filters__input_text {
+    font-family: 'Poppins';
+    width: 80%;
+    border: 2px solid rgb(98, 136, 100);
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 0.9em;
+    outline: none;
+}
+
+.main__filters__checkbox {
+    margin-top: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.main__filters__checkbox__item {
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    color: rgb(29, 29, 29);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
+    padding: 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 50ms;
+}
+
+.main__filters__checkbox__item[checked] {
+    border-color: rgb(164, 216, 163);
+}
+
+.sex .main__filters__checkbox__item:nth-of-type(1) {
+    color: rgb(85, 141, 226);
+}
+
+.sex .main__filters__checkbox__item:nth-of-type(2) {
+    color: pink;
+}
+
+.main__filters__slider {
+    margin: 20px 0 5px;
+}
+
+.range-slider__thumb {
+    background: rgb(98, 136, 100) !important;
+}
+
+.range-slider__range {
+    background: rgb(153, 206, 155) !important;
+}
+
+.main__filters__slider_labels {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.size .main__filters__checkbox__item {
+    font-size: .9em;
+}
+
+.main__filters__submit {
+    font-family: 'Amatic SC';
+    font-size: 1.8em;
+    border-radius: 6px;
+    background-color: rgb(94, 150, 94);
+    color: white;
+
+    width: 200px;
+    height: 60px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+    transition: all 150ms;
+}
+
+.main__filters__submit:hover {
+    color: rgb(187, 233, 173);
+}
+
+.main__filters__submit img {
+    width: 35px;
+}

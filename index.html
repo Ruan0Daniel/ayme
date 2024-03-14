@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Adote</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__image" src="./src/images/familia.png">
+      <div class="header__container">
+        <h1 class="header__title">Bem-vindo(a) ao <a href="/">Adote</a>!</h1>
+        <p class="header__subtitle">Encontre seu parceiro peludo com apenas um clique!</p>
+        <a class="header__button" href="#main">
+          <img src="src/images/pata.png">
+          Quero adotar!
+        </a>
+      </div>
+    </header>
+    <main id="main">
+      <header class="main__header">
+        <h2>Pets Disponíveis</h2>
+        <input type="search" class="main__header__searchbar" id="search_pet_name" placeholder="Buscar por nome...">
+      </header>
+      <aside class="main__filters">
+        <h3 class="main__filters__heading">
+          <span class="material-symbols-outlined">filter_alt</span>
+          Filtros
+        </h3>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/globo.png" class="emoji"> Estado/Cidade</h4>
+          <select id="filter_state_city" name="city[]" multiple></select>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/sexo.png" class="emoji"> Sexo</h4>
+          <div class="main__filters__checkbox sex" id="filter_sex">
+            <span class="main__filters__checkbox__item">
+              <span class="material-symbols-outlined">male</span>
+            </span>
+            <span class="main__filters__checkbox__item">
+              <span class="material-symbols-outlined">female</span>
+            </span>
+          </div>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/bolo.png" class="emoji"> Idade (Anos)</h4>
+          <div class="main__filters__slider range-slider" id="filter_age">
+            <input type="range" />
+            <input type="range" />
+            <div class="range-slider__thumb" data-lower></div>
+            <div class="range-slider__thumb" data-upper></div>
+            <div class="range-slider__range"></div>
+          </div>
+          <div class="main__filters__slider_labels">
+            <span class="main__filters__slider_label age_min">0</span>
+            <span class="main__filters__slider_label">-</span>
+            <span class="main__filters__slider_label age_max">20</span>
+          </div>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/tartaruga.png" class="emoji"> Espécie</h4>
+          <select id="filter_species" multiple></select>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/pintinho.png" class="emoji"> Porte</h4>
+          <div class="main__filters__checkbox size" id="filter_size">
+            <span class="main__filters__checkbox__item">Pequeno</span>
+            <span class="main__filters__checkbox__item">Médio</span>
+            <span class="main__filters__checkbox__item">Grande</span>
+          </div>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <h4 class="main__filters__subheading"><img src="src/images/casa.png" class="emoji"> Instituição de Doação</h4>
+          <select id="filter_institute" multiple></select>
+        </fieldset>
+        <fieldset class="main__filters__fieldset">
+          <button class="main__filters__submit" id="filter_button"><img src="src/images/pata.png">Aplicar Filtros</button>
+        </fieldset>
+      </aside>
+      <section class="main__catalogy"></section>
+    </main>
+    <footer class="footer">
+      <h1>Adote!</h1>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

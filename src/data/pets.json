@@ -1,0 +1,76 @@
+{
+    "pets": [
+        {
+            "name": "Bisnaga",
+            "institute": "SUIPA",
+            "birthday": "2010/05/09",
+            "city": "Itaperuna",
+            "state": "RJ",
+            "sex": "male",
+            "size": "big",
+            "imageUrl": "https://s3.amazonaws.com/petz-cdm-stg/d546d427-e423-49ca-b9a5-3e180a260b7a.jpeg",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Cachorro"
+        },
+        {
+            "name": "Koya",
+            "institute": "Ampara Animal",
+            "birthday": "2022/07/03",
+            "city": "Petrópolis",
+            "state": "RJ",
+            "sex": "female",
+            "size": "medium",
+            "imageUrl": "https://images.dog.ceo/breeds/keeshond/n02112350_9052.jpg",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Cachorro"
+        },
+        {
+            "name": "Felpinho",
+            "institute": "Cão sem dono",
+            "birthday": "2011/03/21",
+            "city": "Manaus",
+            "state": "AM",
+            "sex": "male",
+            "size": "small",
+            "imageUrl": "https://cdn2.thecatapi.com/images/3dk.jpg",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Gato"
+        },
+        {
+            "name": "Nidere",
+            "institute": "Vira Lata é dez",
+            "birthday": "2020/05/20",
+            "city": "Marataíses",
+            "state": "ES",
+            "sex": "female",
+            "size": "big",
+            "imageUrl": "https://cdn2.thecatapi.com/images/c3r.png",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Gato"
+        },
+        {
+            "name": "Blun",
+            "institute": "Instituto Luísa Mel",
+            "birthday": "2018/09/03",
+            "city": "Rio das Ostras",
+            "state": "RJ",
+            "sex": "male",
+            "size": "small",
+            "imageUrl": "https://criadouropetlegal.com.br/wp-content/uploads/2021/07/Papagaio-ecletus.jpeg",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Papagaio"
+        },
+        {
+            "name": "Rammus",
+            "institute": "Amigos de São Francisco",
+            "birthday": "2006/05/02",
+            "city": "Belo Horizonte",
+            "state": "MG",
+            "sex": "female",
+            "size": "medium",
+            "imageUrl": "https://t.ctcdn.com.br/mtoLUhYcpihBYx8izLSpDqXYaNo=/640x360/smart/i624785.jpeg",
+            "gifUrl": "https://4.bp.blogspot.com/-9qsg307hf3U/V3pLI44FZcI/AAAAAAAAWWk/YJjhpEXDI9cdVVOrSQ4muE4V4r6KPzDlQCLcB/s400/Gif%2BCachorro%2Bbrincando%2Bno%2Bbanho.gif",
+            "species": "Tartaruga"
+        }
+    ]
+}
